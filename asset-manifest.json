@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/carta-nochebuena/static/css/main.8cc71a85.css",
+    "main.js": "/carta-nochebuena/static/js/main.c3ebe686.js",
+    "static/js/787.ad6033cb.chunk.js": "/carta-nochebuena/static/js/787.ad6033cb.chunk.js",
+    "index.html": "/carta-nochebuena/index.html",
+    "main.8cc71a85.css.map": "/carta-nochebuena/static/css/main.8cc71a85.css.map",
+    "main.c3ebe686.js.map": "/carta-nochebuena/static/js/main.c3ebe686.js.map",
+    "787.ad6033cb.chunk.js.map": "/carta-nochebuena/static/js/787.ad6033cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cc71a85.css",
+    "static/js/main.c3ebe686.js"
+  ]
+}
