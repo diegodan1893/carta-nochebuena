@@ -75,6 +75,7 @@ function App() {
         <div>
           <div>Piña</div>
           <div>Flan del Paco</div>
+          <div>Bizcocho del Paco</div>
           <div>Tronco de Navidad</div>
         </div>
         <h2>Bebidas</h2>
@@ -85,6 +86,7 @@ function App() {
           <div>Matarromera Ribera del Duero Reserva 2019</div>
           <div>Verdejo Imary Reserva 2019</div>
           <div>Rioja El Coto Reserva 2016</div>
+          <div>Freixenet</div>
           <div>Café</div>
         </div>
       </div>
