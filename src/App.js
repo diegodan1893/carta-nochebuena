@@ -22,7 +22,7 @@ function App() {
         <h2>Entrantes</h2>
         <div>
           <div>Tabla de patés</div>
-          <div>Degustación de jamón ibérico</div>
+          <div>Degustación de jamón ibérico de bellota</div>
           <div>Surtido de quesos</div>
           <div>Langostinos Tigre</div>
         </div>
