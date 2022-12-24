@@ -13,7 +13,7 @@ const BotonMenu = ({ texto, ruta }) => {
 
 const MainMenu = () => {
 	return (
-		<div className="flex mx-auto flex-col px-5 items-center max-w-xl h-screen h-screen-ios justify-center">
+		<div className="flex mx-auto flex-col px-5 items-center max-w-xl min-h-screen min-h-screen-ios justify-center">
 			<BotonMenu texto="Aperitivos" />
 			<BotonMenu texto="Entrantes" />
 			<BotonMenu texto="Principales" />
