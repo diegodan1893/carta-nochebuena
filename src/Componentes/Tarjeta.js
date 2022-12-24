@@ -1,6 +1,6 @@
-export const TarjetaVacia = ({ children }) => {
+export const TarjetaVacia = ({ children, className }) => {
 	return (
-		<div className="text-white text-center bg-slate-900 rounded-xl flex min-w-full flex-col py-5 items-center px-5 justify-center">
+		<div className={`text-white text-center bg-slate-900 rounded-xl flex min-w-full flex-col py-5 items-center px-5 justify-center ${className}`}>
 			{children}
 		</div>
 	)
