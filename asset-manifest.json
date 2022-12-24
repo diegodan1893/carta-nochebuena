@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/carta-nochebuena/static/css/main.ca6c245e.css",
-    "main.js": "/carta-nochebuena/static/js/main.92f97c9d.js",
+    "main.css": "/carta-nochebuena/static/css/main.d681f91f.css",
+    "main.js": "/carta-nochebuena/static/js/main.e7fbd465.js",
     "static/js/787.ad6033cb.chunk.js": "/carta-nochebuena/static/js/787.ad6033cb.chunk.js",
     "index.html": "/carta-nochebuena/index.html",
-    "main.ca6c245e.css.map": "/carta-nochebuena/static/css/main.ca6c245e.css.map",
-    "main.92f97c9d.js.map": "/carta-nochebuena/static/js/main.92f97c9d.js.map",
+    "main.d681f91f.css.map": "/carta-nochebuena/static/css/main.d681f91f.css.map",
+    "main.e7fbd465.js.map": "/carta-nochebuena/static/js/main.e7fbd465.js.map",
     "787.ad6033cb.chunk.js.map": "/carta-nochebuena/static/js/787.ad6033cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca6c245e.css",
-    "static/js/main.92f97c9d.js"
+    "static/css/main.d681f91f.css",
+    "static/js/main.e7fbd465.js"
   ]
 }
