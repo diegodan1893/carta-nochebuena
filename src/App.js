@@ -10,6 +10,8 @@ import Postres from "./Rutas/Postres"
 import Bebidas from "./Rutas/Bebidas"
 import Dia from "./Rutas/Dia"
 import Hora from "./Rutas/Hora"
+import Localizacion from "./Rutas/Localization"
+import Cubiertos from "./Rutas/Cubiertos"
 
 const router = createHashRouter([
 	{
@@ -47,6 +49,14 @@ const router = createHashRouter([
 	{
 		path: "/Hora",
 		element: <Hora />,
+	},
+	{
+		path: "/Localización",
+		element: <Localizacion />,
+	},
+	{
+		path: "/Cubiertos",
+		element: <Cubiertos />,
 	},
 ])
 
