@@ -1,5 +1,5 @@
 import Snowfall from "react-snowfall"
-import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import MainMenu from "./Rutas/MainMenu"
 import Aperitivos from "./Rutas/Aperitivos"
 import "./index.css"
@@ -11,45 +11,41 @@ import Bebidas from "./Rutas/Bebidas"
 import Dia from "./Rutas/Dia"
 import Hora from "./Rutas/Hora"
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
-		path: "/carta-nochebuena",
-		element: <Navigate to="/carta-nochebuena/menu" replace={true} />,
-	},
-	{
-		path: "/carta-nochebuena/menu",
+		path: "/",
 		element: <MainMenu />,
 	},
 	{
-		path: "/carta-nochebuena/Aperitivos",
+		path: "/Aperitivos",
 		element: <Aperitivos />,
 	},
 	{
-		path: "/carta-nochebuena/Entrantes",
+		path: "/Entrantes",
 		element: <Entrantes />,
 	},
 	{
-		path: "/carta-nochebuena/Principales",
+		path: "/Principales",
 		element: <Principales />,
 	},
 	{
-		path: "/carta-nochebuena/Acompañamientos",
+		path: "/Acompañamientos",
 		element: <Acompanamientos />,
 	},
 	{
-		path: "/carta-nochebuena/Postres",
+		path: "/Postres",
 		element: <Postres />,
 	},
 	{
-		path: "/carta-nochebuena/Bebidas",
+		path: "/Bebidas",
 		element: <Bebidas />,
 	},
 	{
-		path: "/carta-nochebuena/Día",
+		path: "/Día",
 		element: <Dia />,
 	},
 	{
-		path: "/carta-nochebuena/Hora",
+		path: "/Hora",
 		element: <Hora />,
 	},
 ])
