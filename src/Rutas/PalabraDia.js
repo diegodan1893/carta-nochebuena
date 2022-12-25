@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 import { Fade, Flip, Roll, Zoom } from "react-awesome-reveal"
 import ListaCentrada from "../Componentes/ListaCentrada"
 import { TarjetaVacia } from "../Componentes/Tarjeta"
