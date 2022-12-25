@@ -14,6 +14,7 @@ const Cubiertos = () => {
 					"Cazo",
 					"Rasera plana",
 					"Rasera redonda",
+					"La cosa esa triangular para coger la tarta",
 				]}
 			/>
 		</ListaCentrada>
