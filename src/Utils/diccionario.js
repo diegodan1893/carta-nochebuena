@@ -43,6 +43,7 @@ export const palabras = [
 	"tras",
 	"durante",
 	"mediante",
+	"depende",
 	"alpargata",
 	"altramuces",
 	"daleao",
