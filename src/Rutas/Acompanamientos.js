@@ -1,12 +1,12 @@
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import Tarjeta from "../Componentes/Tarjeta"
+import Carta from "../Componentes/Carta"
 
 const shuffle = (array) => array.sort((a, b) => 0.5 - Math.random())
 
 const Acompanamientos = () => {
 	return (
 		<ContenedorPagina>
-			<Tarjeta
+			<Carta
 				titulo="Acompañamientos"
 				elementos={shuffle([
 					"Barra gallega",

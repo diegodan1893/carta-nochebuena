@@ -4,7 +4,7 @@ const ContenedorPagina = ({ children }) => {
 	return (
 		<>
 			<ScrollRestoration />
-			<div className="flex mx-auto flex-col px-5 items-center max-w-xl min-h-screen min-h-screen-ios justify-center gap-10">
+			<div className="flex flex-col mx-auto min-h-screen min-h-screen-ios justify-center max-w-sm space-y-3 px-4 pt-32 pb-48 font-oswald">
 				{children}
 			</div>
 		</>

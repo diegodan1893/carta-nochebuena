@@ -1,21 +1,10 @@
-export const TarjetaVacia = ({ children, className }) => {
+export const Tarjeta = ({ children, className }) => {
 	return (
-		<div className={`text-white text-center bg-slate-900 rounded-xl flex min-w-full flex-col py-5 items-center px-5 justify-center ${className}`}>
+		<div
+			className={`flex flex-col justify-center items-center bg-white/50 backdrop-blur-sm py-2 px-4 border-4 border-black shadow-md text-center ${className}`}
+		>
 			{children}
 		</div>
-	)
-}
-
-const Tarjeta = ({ titulo, elementos }) => {
-	return (
-		<TarjetaVacia>
-			<h1 className="text-5xl mb-10">{titulo}</h1>
-			<div>
-				{elementos.map((elemento, i) => (
-					<div key={i}>{elemento}</div>
-				))}
-			</div>
-		</TarjetaVacia>
 	)
 }
 

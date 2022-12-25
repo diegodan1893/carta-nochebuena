@@ -1,10 +1,10 @@
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import Tarjeta from "../Componentes/Tarjeta"
+import Carta from "../Componentes/Carta"
 
 const Entrantes = () => {
 	return (
 		<ContenedorPagina>
-			<Tarjeta
+			<Carta
 				titulo="Entrantes"
 				elementos={[
 					"Obligatoriedad a ayudar a montar un nacimiento improvisado",

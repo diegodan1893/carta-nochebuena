@@ -5,7 +5,7 @@ import { ClimbingBoxLoader } from "react-spinners"
 import { SpinnerDotted } from "spinners-react"
 import { randomInRange } from "../Utils/random"
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import { TarjetaVacia } from "../Componentes/Tarjeta"
+import Tarjeta from "../Componentes/Tarjeta"
 import writtenNumber from "written-number"
 import { nombreDia } from "../Utils/config"
 
@@ -64,7 +64,7 @@ const Dia = () => {
 
 	return (
 		<ContenedorPagina>
-			<TarjetaVacia>
+			<Tarjeta className="h-64">
 				{paso === 0 && (
 					<>
 						<SpinnerDotted />
@@ -87,7 +87,7 @@ const Dia = () => {
 				)}
 				{paso === 3 && (
 					<>
-						<ClimbingBoxLoader color="#ffffff" />
+						<ClimbingBoxLoader color="#00b7ff" />
 						<p className="mt-5">Ya casi estamos...</p>
 					</>
 				)}
@@ -103,7 +103,7 @@ const Dia = () => {
 						</p>
 					</>
 				)}
-			</TarjetaVacia>
+			</Tarjeta>
 		</ContenedorPagina>
 	)
 }

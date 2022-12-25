@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react"
 import { Fade, Flip, Roll, Zoom } from "react-awesome-reveal"
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import { TarjetaVacia } from "../Componentes/Tarjeta"
+import Tarjeta from "../Componentes/Tarjeta"
 import { palabras } from "../Utils/diccionario"
 import { randomInRange } from "../Utils/random"
 
@@ -32,7 +32,7 @@ const PalabraDia = () => {
 
 	return (
 		<ContenedorPagina>
-			<TarjetaVacia className="h-96">
+			<Tarjeta className="h-96">
 				{paso === 0 && (
 					<Zoom delay={500}>
 						<p className="text-5xl">La palabra del día</p>
@@ -58,7 +58,7 @@ const PalabraDia = () => {
 						</Fade>
 					</>
 				)}
-			</TarjetaVacia>
+			</Tarjeta>
 		</ContenedorPagina>
 	)
 }

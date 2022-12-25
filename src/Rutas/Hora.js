@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import { TarjetaVacia } from "../Componentes/Tarjeta"
+import Tarjeta from "../Componentes/Tarjeta"
 import { randomInRange } from "../Utils/random"
 
 const Hora = () => {
@@ -48,10 +48,10 @@ const Hora = () => {
 
 	return (
 		<ContenedorPagina>
-			<TarjetaVacia>
+			<Tarjeta>
 				<p>Ahora mismo son las</p>
 				<p className="m-5 text-xl">{hora}</p>
-			</TarjetaVacia>
+			</Tarjeta>
 		</ContenedorPagina>
 	)
 }

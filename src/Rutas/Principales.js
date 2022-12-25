@@ -1,10 +1,10 @@
 import ContenedorPagina from "../Componentes/ContenedorPagina"
-import Tarjeta from "../Componentes/Tarjeta"
+import Carta from "../Componentes/Carta"
 
 const Principales = () => {
 	return (
 		<ContenedorPagina>
-			<Tarjeta
+			<Carta
 				titulo="Caldo de nochebuena"
 				elementos={[
 					"Pollo CUK",
@@ -19,7 +19,7 @@ const Principales = () => {
 					"Sin aceite de palma",
 				]}
 			/>
-			<Tarjeta
+			<Carta
 				titulo="Lasaña casera"
 				elementos={["Ingredientes de lasaña"]}
 			/>
