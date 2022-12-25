@@ -13,6 +13,7 @@ import Hora from "./Rutas/Hora"
 import Localizacion from "./Rutas/Localization"
 import Cubiertos from "./Rutas/Cubiertos"
 import PalabraDia from "./Rutas/PalabraDia"
+import Autodestruccion from "./Rutas/Autodestruccion"
 
 const router = createHashRouter([
 	{
@@ -62,6 +63,10 @@ const router = createHashRouter([
 	{
 		path: "/Palabra del día",
 		element: <PalabraDia />,
+	},
+	{
+		path: "/Autodestrucción",
+		element: <Autodestruccion />,
 	},
 ])
 

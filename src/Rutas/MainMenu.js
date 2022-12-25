@@ -25,6 +25,7 @@ const MainMenu = () => {
 			<BotonMenu texto="Localización" />
 			<BotonMenu texto="Cubiertos" />
 			<BotonMenu texto="Palabra del día" />
+			<BotonMenu texto="Autodestrucción" />
 		</div>
 	)
 }
