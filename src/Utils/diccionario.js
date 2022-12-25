@@ -115,4 +115,5 @@ export const palabras = [
 	"turuleca",
 	"rasera",
 	"parchís",
+	"miércoles",
 ]
