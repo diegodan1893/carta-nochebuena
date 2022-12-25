@@ -86,7 +86,7 @@ export const palabras = [
 	"furulla",
 	"pelanas",
 	"escacharrao",
-	"gilopollas",
+	"gilipollas",
 	"saltabalates",
 	"balate",
 	"zopenco",
@@ -113,4 +113,5 @@ export const palabras = [
 	"mazacote",
 	"mosqueperros",
 	"turuleca",
+	"rasera",
 ]
