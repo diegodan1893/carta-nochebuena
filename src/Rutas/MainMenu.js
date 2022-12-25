@@ -32,6 +32,7 @@ const MainMenu = () => {
 			<BotonMenu texto="Cubiertos" />
 			<BotonMenu texto="Palabra del día" />
 			<BotonMenu texto="Autodestrucción" />
+			<BotonMenu texto="Legal" />
 		</ContenedorPagina>
 	)
 }

@@ -13,6 +13,7 @@ import Localizacion from "./Rutas/Localization"
 import Cubiertos from "./Rutas/Cubiertos"
 import PalabraDia from "./Rutas/PalabraDia"
 import Autodestruccion from "./Rutas/Autodestruccion"
+import Legal from "./Rutas/Legal"
 
 import "./index.css"
 import Pinos from "./resources/pinos"
@@ -70,6 +71,10 @@ const router = createHashRouter([
 	{
 		path: "/Autodestrucción",
 		element: <Autodestruccion />,
+	},
+	{
+		path: "/Legal",
+		element: <Legal />,
 	},
 ])
 

@@ -1,5 +1,3 @@
-import Tarjeta from "./Tarjeta"
-
 const Carta = ({ titulo, elementos }) => {
 	return (
 		<div className="flex flex-col mb-6 last:mb-0 text-center">
