@@ -7,6 +7,7 @@ import { randomInRange } from "../Utils/random"
 import ContenedorPagina from "../Componentes/ContenedorPagina"
 import { TarjetaVacia } from "../Componentes/Tarjeta"
 import writtenNumber from "written-number"
+import { nombreDia } from "../Utils/config"
 
 const mesAleatorio = () => {
 	const meses = [
@@ -93,7 +94,7 @@ const Dia = () => {
 				{paso === 4 && (
 					<>
 						<p>Hoy es:</p>
-						<p className="my-5 text-5xl">Nochebuena</p>
+						<p className="my-5 text-5xl">{nombreDia}</p>
 						<p className="text-lg">
 							{randomInRange(-32, 32)} de {mesAleatorio()} de{" "}
 							{writtenNumber(randomInRange(1970, 2026), {
