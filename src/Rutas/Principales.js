@@ -1,9 +1,9 @@
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import Tarjeta from "../Componentes/Tarjeta"
 
 const Principales = () => {
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<Tarjeta
 				titulo="Caldo de nochebuena"
 				elementos={[
@@ -23,7 +23,7 @@ const Principales = () => {
 				titulo="Lasaña casera"
 				elementos={["Ingredientes de lasaña"]}
 			/>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 

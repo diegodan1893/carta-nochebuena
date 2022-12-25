@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react"
 import { Fade, Flip, Roll, Zoom } from "react-awesome-reveal"
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import { TarjetaVacia } from "../Componentes/Tarjeta"
 import { palabras } from "../Utils/diccionario"
 import { randomInRange } from "../Utils/random"
@@ -31,7 +31,7 @@ const PalabraDia = () => {
 	}, [paso])
 
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<TarjetaVacia className="h-96">
 				{paso === 0 && (
 					<Zoom delay={500}>
@@ -59,7 +59,7 @@ const PalabraDia = () => {
 					</>
 				)}
 			</TarjetaVacia>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 

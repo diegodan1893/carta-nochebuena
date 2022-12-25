@@ -4,7 +4,7 @@ import { Dna } from "react-loader-spinner"
 import { ClimbingBoxLoader } from "react-spinners"
 import { SpinnerDotted } from "spinners-react"
 import { randomInRange } from "../Utils/random"
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import { TarjetaVacia } from "../Componentes/Tarjeta"
 import writtenNumber from "written-number"
 
@@ -32,16 +32,16 @@ const mesAleatorio = () => {
 
 const Whirlpool = () => {
 	return (
-		<div class="whirlpool">
-			<div class="ringspinner ring1"></div>
-			<div class="ringspinner ring2"></div>
-			<div class="ringspinner ring3"></div>
-			<div class="ringspinner ring4"></div>
-			<div class="ringspinner ring5"></div>
-			<div class="ringspinner ring6"></div>
-			<div class="ringspinner ring7"></div>
-			<div class="ringspinner ring8"></div>
-			<div class="ringspinner ring9"></div>
+		<div className="whirlpool">
+			<div className="ringspinner ring1"></div>
+			<div className="ringspinner ring2"></div>
+			<div className="ringspinner ring3"></div>
+			<div className="ringspinner ring4"></div>
+			<div className="ringspinner ring5"></div>
+			<div className="ringspinner ring6"></div>
+			<div className="ringspinner ring7"></div>
+			<div className="ringspinner ring8"></div>
+			<div className="ringspinner ring9"></div>
 		</div>
 	)
 }
@@ -62,7 +62,7 @@ const Dia = () => {
 	}, [paso])
 
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<TarjetaVacia>
 				{paso === 0 && (
 					<>
@@ -103,7 +103,7 @@ const Dia = () => {
 					</>
 				)}
 			</TarjetaVacia>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 

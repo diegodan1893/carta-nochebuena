@@ -1,9 +1,9 @@
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import Tarjeta from "../Componentes/Tarjeta"
 
 const Bebidas = () => {
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<Tarjeta
 				titulo="Bebidas"
 				elementos={[
@@ -20,7 +20,7 @@ const Bebidas = () => {
 					"Té de la Escarlata",
 				]}
 			/>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 

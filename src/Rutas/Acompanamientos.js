@@ -1,11 +1,11 @@
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import Tarjeta from "../Componentes/Tarjeta"
 
 const shuffle = (array) => array.sort((a, b) => 0.5 - Math.random())
 
 const Acompanamientos = () => {
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<Tarjeta
 				titulo="Acompañamientos"
 				elementos={shuffle([
@@ -23,7 +23,7 @@ const Acompanamientos = () => {
 					"Nochebueno (sin azúcar)",
 				])}
 			/>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 

@@ -1,9 +1,9 @@
-import ListaCentrada from "../Componentes/ListaCentrada"
+import ContenedorPagina from "../Componentes/ContenedorPagina"
 import Tarjeta from "../Componentes/Tarjeta"
 
 const Cubiertos = () => {
 	return (
-		<ListaCentrada>
+		<ContenedorPagina>
 			<Tarjeta
 				titulo="Cubiertos"
 				elementos={[
@@ -17,7 +17,7 @@ const Cubiertos = () => {
 					"La cosa esa triangular para coger la tarta",
 				]}
 			/>
-		</ListaCentrada>
+		</ContenedorPagina>
 	)
 }
 
