@@ -111,4 +111,5 @@ export const palabras = [
 	"táper",
 	"bote",
 	"mazacote",
+	"mosqueperros",
 ]
