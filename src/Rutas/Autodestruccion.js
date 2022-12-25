@@ -5,7 +5,7 @@ const Autodestruccion = () => {
 		let txt = "a"
 
 		while (true) {
-			txt = txt + txt
+			txt = txt + "a"
 		}
 	}, [])
 	return null
