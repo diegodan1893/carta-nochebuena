@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/carta-nochebuena/static/css/main.0dd201fa.css",
-    "main.js": "/carta-nochebuena/static/js/main.5a4b44fc.js",
+    "main.js": "/carta-nochebuena/static/js/main.ba0d9ae5.js",
     "static/js/787.45206e35.chunk.js": "/carta-nochebuena/static/js/787.45206e35.chunk.js",
     "static/media/mapa.webp": "/carta-nochebuena/static/media/mapa.681666726d0e3c460751.webp",
     "index.html": "/carta-nochebuena/index.html",
     "main.0dd201fa.css.map": "/carta-nochebuena/static/css/main.0dd201fa.css.map",
-    "main.5a4b44fc.js.map": "/carta-nochebuena/static/js/main.5a4b44fc.js.map",
+    "main.ba0d9ae5.js.map": "/carta-nochebuena/static/js/main.ba0d9ae5.js.map",
     "787.45206e35.chunk.js.map": "/carta-nochebuena/static/js/787.45206e35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd201fa.css",
-    "static/js/main.5a4b44fc.js"
+    "static/js/main.ba0d9ae5.js"
   ]
 }
