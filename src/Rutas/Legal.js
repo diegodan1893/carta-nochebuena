@@ -26,7 +26,7 @@ const Legal = () => {
 					influir en su consumo de ninguna otra manera, ni tampoco
 					utilizar los servicios del menú de {nombreDia}.
 				</p>
-				<ol className="list-decimal space-y-3">
+				<ol className="list-inside list-decimal space-y-3">
 					<li>
 						<span className="underline">Derechos de consumo</span>.
 						Cada comensal tiene derecho al consumo de un mantecado
