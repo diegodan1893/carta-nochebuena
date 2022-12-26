@@ -74,15 +74,16 @@ const Legal = () => {
 						<span className="underline">
 							Descargo de responsabilidad
 						</span>
-						. El servicio de autodestrucción del menú de {nombreDia}{" "}
-						se ofrece tal cual, sin garantía de ningún tipo, expresa
-						o implícita, incluyendo pero no limitado a garantías de
-						seguridad e idoneidad para un propósito particular. En
-						ningún caso los anfitriones serán responsables de
-						ninguna reclamación, daños u otras responsabilidades, ya
-						sea en una acción de contrato, agravio o cualquier otro
-						motivo, derivadas de, fuera de o en conexión con el
-						servicio de autodestrucción o de su uso.
+						. Los servicios de autodestrucción, día y hora del menú
+						de {nombreDia} se ofrecen tal cual, sin garantía de
+						ningún tipo, expresa o implícita, incluyendo pero no
+						limitado a garantías de seguridad, correctitud e
+						idoneidad para un propósito particular. En ningún caso
+						los anfitriones serán responsables de ninguna
+						reclamación, daños u otras responsabilidades, ya sea en
+						una acción de contrato, agravio o cualquier otro motivo,
+						derivadas de, fuera de o en conexión con los servicios
+						de autodestrucción, día u hora o de su uso.
 					</li>
 				</ol>
 				<p>
