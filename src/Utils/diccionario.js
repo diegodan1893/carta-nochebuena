@@ -117,4 +117,5 @@ export const palabras = [
 	"rasera",
 	"parchís",
 	"miércoles",
+	"esaborío",
 ]
