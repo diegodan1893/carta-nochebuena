@@ -34,7 +34,6 @@ export const palabras = [
 	"en",
 	"hasta",
 	"hacia",
-	"para",
 	"por",
 	"según",
 	"sí",
