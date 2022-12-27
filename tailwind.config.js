@@ -10,10 +10,19 @@ module.exports = {
 			},
 			backgroundImage: {
 				monte: "url('./resources/monte.png')",
+				aperitivos: "url(./resources/aperitivos.png)",
+				entrantes: "url(./resources/entrantes.png)",
 				principales: "url(./resources/principales.png)",
+				acompañamientos: "url(./resources/acompañamientos.png)",
+				postres: "url(./resources/postres.png)",
 				bebidas: "url(./resources/bebidas.png)",
 				dia: "url(./resources/dia.png)",
 				hora: "url(./resources/hora.png)",
+				localizacion: "url(./resources/localizacion.png)",
+				cubiertos: "url(./resources/cubiertos.png)",
+				palabra: "url(./resources/palabra.png)",
+				autodestruccion: "url(./resources/autodestruccion.png)",
+				legal: "url(./resources/legal.png)",
 			},
 			keyframes: {
 				float: {

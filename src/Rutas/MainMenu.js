@@ -20,19 +20,19 @@ const MainMenu = () => {
 				{nombreDia} {año.slice(0, 2)}
 				<span className="text-red-500">{año.slice(2, 4)}</span>
 			</h1>
-			<BotonMenu texto="Aperitivos" />
-			<BotonMenu texto="Entrantes" />
+			<BotonMenu texto="Aperitivos" fondo="bg-aperitivos" />
+			<BotonMenu texto="Entrantes" fondo="bg-entrantes" />
 			<BotonMenu texto="Principales" fondo="bg-principales" />
-			<BotonMenu texto="Acompañamientos" />
-			<BotonMenu texto="Postres" />
+			<BotonMenu texto="Acompañamientos" fondo="bg-acompañamientos" />
+			<BotonMenu texto="Postres" fondo="bg-postres" />
 			<BotonMenu texto="Bebidas" fondo="bg-bebidas" />
 			<BotonMenu texto="Día" fondo="bg-dia" />
 			<BotonMenu texto="Hora" fondo="bg-hora" />
-			<BotonMenu texto="Localización" />
-			<BotonMenu texto="Cubiertos" />
-			<BotonMenu texto="Palabra del día" />
-			<BotonMenu texto="Autodestrucción" />
-			<BotonMenu texto="Legal" />
+			<BotonMenu texto="Localización" fondo="bg-localizacion" />
+			<BotonMenu texto="Cubiertos" fondo="bg-cubiertos" />
+			<BotonMenu texto="Palabra del día" fondo="bg-palabra" />
+			<BotonMenu texto="Autodestrucción" fondo="bg-autodestruccion" />
+			<BotonMenu texto="Legal" fondo="bg-legal" />
 		</ContenedorPagina>
 	)
 }
