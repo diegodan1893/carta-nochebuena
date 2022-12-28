@@ -26,6 +26,7 @@ const Hora = () => {
 					setHora("hace 0 segundos")
 					break
 				case 3:
+					// El rango incluye ambos números, está mal a propósito
 					const hora = randomInRange(0, 25)
 					const minuto = randomInRange(0, 61)
 					const segundo = randomInRange(0, 61)

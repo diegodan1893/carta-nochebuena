@@ -10,7 +10,7 @@ const PalabraDia = () => {
 	const [palabra, setPalabra] = useState("")
 
 	const generarPalabra = useCallback(() => {
-		const indice = randomInRange(0, palabras.length)
+		const indice = randomInRange(0, palabras.length - 1)
 		setPalabra(palabras[indice])
 	}, [])
 
