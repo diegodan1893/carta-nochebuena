@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/carta-nochebuena/static/css/main.0dd201fa.css",
-    "main.js": "/carta-nochebuena/static/js/main.ba0d9ae5.js",
+    "main.css": "/carta-nochebuena/static/css/main.0e295ae2.css",
+    "main.js": "/carta-nochebuena/static/js/main.33e8f552.js",
     "static/js/787.45206e35.chunk.js": "/carta-nochebuena/static/js/787.45206e35.chunk.js",
     "static/media/mapa.webp": "/carta-nochebuena/static/media/mapa.681666726d0e3c460751.webp",
+    "static/media/principales.png": "/carta-nochebuena/static/media/principales.87bcaf2a07a533816881.png",
+    "static/media/bebidas.png": "/carta-nochebuena/static/media/bebidas.e594b1fcbaeb167d8006.png",
+    "static/media/legal.png": "/carta-nochebuena/static/media/legal.98c6f80574d0cdc0b1b7.png",
+    "static/media/cubiertos.png": "/carta-nochebuena/static/media/cubiertos.f1665261ac79deb4a0a7.png",
+    "static/media/palabra.png": "/carta-nochebuena/static/media/palabra.18d4d7ca5e932d5a1038.png",
+    "static/media/dia.png": "/carta-nochebuena/static/media/dia.530d9da20614e4f92730.png",
+    "static/media/aperitivos.png": "/carta-nochebuena/static/media/aperitivos.593761557e4aecf9db60.png",
+    "static/media/monte.png": "/carta-nochebuena/static/media/monte.1942558b35ca836af872.png",
+    "static/media/acompañamientos.png": "/carta-nochebuena/static/media/acompañamientos.4bd27b7389d969f5a605.png",
+    "static/media/entrantes.png": "/carta-nochebuena/static/media/entrantes.c31580106ca4e98d77e3.png",
+    "static/media/localizacion.png": "/carta-nochebuena/static/media/localizacion.a31a1d72590f65d83ca3.png",
+    "static/media/autodestruccion.png": "/carta-nochebuena/static/media/autodestruccion.d953d16a099bb04663b7.png",
+    "static/media/hora.png": "/carta-nochebuena/static/media/hora.89ab20f2d872c065cfaa.png",
+    "static/media/postres.png": "/carta-nochebuena/static/media/postres.bd69807d844823fa4a61.png",
     "index.html": "/carta-nochebuena/index.html",
-    "main.0dd201fa.css.map": "/carta-nochebuena/static/css/main.0dd201fa.css.map",
-    "main.ba0d9ae5.js.map": "/carta-nochebuena/static/js/main.ba0d9ae5.js.map",
+    "main.0e295ae2.css.map": "/carta-nochebuena/static/css/main.0e295ae2.css.map",
+    "main.33e8f552.js.map": "/carta-nochebuena/static/js/main.33e8f552.js.map",
     "787.45206e35.chunk.js.map": "/carta-nochebuena/static/js/787.45206e35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dd201fa.css",
-    "static/js/main.ba0d9ae5.js"
+    "static/css/main.0e295ae2.css",
+    "static/js/main.33e8f552.js"
   ]
 }
