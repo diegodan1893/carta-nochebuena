@@ -5,7 +5,7 @@ import { año, nombreDia } from "../Utils/config"
 const BotonMenu = ({ texto, fondo }) => {
 	return (
 		<Link
-			className={`bg-white/50 backdrop-blur-sm hover:bg-red-500 hover:text-white py-2 px-4 border-4 border-black text-right uppercase shadow-md bg-cover bg-right ${fondo}`}
+			className={`bg-white/50 backdrop-blur-sm hover:bg-red-500 hover:text-white py-2 px-4 border-4 border-black text-right uppercase shadow-md bg-cover bg-left ${fondo}`}
 			to={`/${texto}`}
 		>
 			{texto}

@@ -7,7 +7,9 @@ const Entrantes = () => {
 			<Carta
 				titulo="Entrantes"
 				elementos={[
-					"Obligatoriedad a ayudar a montar un nacimiento improvisado",
+					"Piruletas de queso",
+					"Tabla de patés",
+					"Tabla de quesos Tolco",
 				]}
 			/>
 		</ContenedorPagina>

@@ -7,8 +7,9 @@ const Postres = () => {
 			<Carta
 				titulo="Postres"
 				elementos={[
-					"Tronco de yema",
-					"Café Nespresso",
+					"Piña",
+					"Tarta de piononos y yogur griego",
+					"Café",
 					"Té de la Escarlata",
 				]}
 			/>

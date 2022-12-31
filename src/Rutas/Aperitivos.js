@@ -11,8 +11,9 @@ const Aperitivos = () => {
 					"Mantecados",
 					"Danielitos",
 					"Roscos de anís Gema",
-					"Surtido de canapés pero de los raros",
-					"Trenza de salmón y queso",
+					"Yemas de chocolate de Santa Teresa",
+					"Surtido de canapés",
+					"Fruta vegana",
 				]}
 			/>
 		</ContenedorPagina>

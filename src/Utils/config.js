@@ -1,4 +1,4 @@
-export const nombreDia = "Nochebuena"
+export const nombreDia = "Nochevieja"
 
 // Unicode!
 export const año = "2022"

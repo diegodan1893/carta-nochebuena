@@ -5,17 +5,21 @@ const Principales = () => {
 	return (
 		<ContenedorPagina>
 			<Carta
-				titulo="Caldo de nochebuena"
+				titulo="Tradicional caldo de Nochebuena"
 				elementos={[
 					"Pollo CUK",
 					"Pollo criado en suelo",
 					"Jamón Duroc",
+					"Paletilla ibérica Duroc",
 					"Picatostes",
 					"Huevo",
-					"Sal rosa",
+					"Sal",
 					"Hueso artesanal",
+					"Nueces",
+					"Avellanas",
 					"Caldo",
 					"Nochebuena",
+					"Tradición",
 					"Sin aceite de palma",
 				]}
 			/>
